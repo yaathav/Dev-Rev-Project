@@ -1,0 +1,99 @@
+.single__book-img {
+  border-radius: 8px;
+}
+.single__book-seen span i {
+  color: #fff;
+  padding: 5px;
+  background: #000;
+  border-radius: 50px;
+}
+.single__book-seen span,
+.single__book-more span {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.single__book-more span i {
+  background: #343444;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.book__author {
+  background: #34343444;
+  padding: 20px;
+  border-radius: 7px;
+  width: 50%;
+}
+.author__img {
+  width: 40px;
+  height: 40px;
+}
+
+.author__detail p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.author__detail h6 {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.singleBook-btn {
+  border: none;
+  outline: none;
+  padding: 8px 25px;
+  border-radius: 50px;
+  background: #5142fc;
+
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleBook-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.singleBook-btn:hover {
+  background: #fff;
+}
+.singleBook-btn:hover a {
+  color: #5142fc;
+}
+.singleBook-btn i {
+  color: #fff;
+}
+
+.singleBook-btn:hover i {
+  color: #5142fc;
+}
+
+@media only screen and (max-width: 992px) {
+  .single__book__content h2 {
+    font-size: 1.3rem;
+  }
+  .single__book__content p {
+    font-size: 0.8rem;
+    line-height: 28px;
+  }
+  .book__author {
+    width: 100%;
+  }
+  .singleBook-btn a {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .single__book__content h2 {
+    margin-top: 15px;
+  }
+}
